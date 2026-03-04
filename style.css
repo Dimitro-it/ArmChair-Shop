@@ -491,11 +491,17 @@ h1 {
 .button6:hover {
     border: 2px solid #000000;
     background-color: black;
-    /* transition: all 0.5s; */
 }
 
 .button6:hover span {
     color: #ffffff;
-    /* transition: all 0.5s; */
 }
 
+.card1 {
+    transition: all .5s;
+}
+
+.card1:hover {
+    box-shadow: 2px 2px 20px rgb(165, 165, 165);
+    border-radius: 15px;
+}
